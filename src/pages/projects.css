@@ -1,0 +1,202 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .project-header {
+    text-align: left;
+    padding: 2rem;
+    background-color: #f2f2ff;
+  }
+  
+  .project-header h1 {
+    font-size: 3.5rem;
+    color: 0000;
+    margin-left:50px;
+
+  }
+  
+  .project-header p {
+    font-size: 1.2rem;
+    color: 0000;
+    margin-left:50px;
+
+  }
+  
+  /* Overview Section */
+  .overview {
+    padding: 2rem;
+  }
+  
+  .overview .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem; /* Adjusts spacing between columns */
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+  }
+  
+  .overview .content > div {
+    flex: 1; /* Ensures both columns take equal width */
+    min-width: 250px; /* Ensures a minimum width for better responsiveness */
+  }
+  
+  
+  .overview h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .overview p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff; /* Customize text color as needed */
+  }
+  
+  /* Details Section */
+  .details {
+    padding: 2rem;
+    /* background-color: #f2f2ff; */
+  }
+  
+  .details h2 {
+    text-align: center;
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+  }
+  
+  .details-grid h3 {
+    text-align: left;
+  }
+  
+  /* Design Process Section */
+  .process {
+    padding: 2rem;
+    text-align: center;
+    /* background-color: #fff; */
+  }
+  
+  .process .steps {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .steps div {
+    background-color: #4EB5FF;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+  }
+  
+  /* User Journey, Sketches, Wireframes, and UI Design */
+  section {
+    padding: 2rem;
+    /* background-color: #f9f9f9; */
+  }
+  
+  section img {
+    display: block;
+    max-width: 100%;
+    margin: 1rem auto;
+    border-radius: 10px;
+  }
+  
+  /* Next Steps */
+  .next-steps ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .next-steps li {
+    background: #4EB5FF;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  .project-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .project-footer a {
+    color: #e6e6ff;
+    text-decoration: none;
+  }
+  .row-container {
+    display: flex;
+    justify-content: space-between; /* Add spacing between sections */
+    gap: 2rem; /* Optional: Adjust spacing between sections */
+    align-items: flex-start; /* Aligns sections at the top */
+    margin: 2rem 0; /* Adds spacing above and below the row */
+  }
+  
+  .interviews,
+  .pains {
+    flex: 1; /* Makes each section take up equal width */
+  }
+  
+  .interviews {
+    margin-right: 1rem; /* Optional: Add spacing to the right of this section */
+  }
+  
+  .pains {
+    margin-left: 1rem; /* Optional: Add spacing to the left of this section */
+  }
+  
+  /* .interviews h2,
+  .pains h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  } */
+  
+  .interviews p,
+  .pains p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  .pains ul {
+    list-style-type: disc; /* Adds bullet points */
+    padding-left: 1.5rem; /* Indents the list */
+  }
+  
+  .pains ul li {
+    margin-bottom: 0.5rem; /* Adds spacing between list items */
+    line-height: 1.5; /* Improves readability */
+  }
+
+  .Sketch{
+    width: 50%;
+    height: 50%;
+  }
+
+  .personas1,
+  .personas2 {
+    flex: 1; /* Makes each section take up equal width */
+  }
+  
+  .personas1 {
+    margin-right: 1rem; /* Optional: Add spacing to the right of this section */
+  }
+  
+  .personas2 {
+    margin-left: 1rem; /* Optional: Add spacing to the left of this section */
+  }
