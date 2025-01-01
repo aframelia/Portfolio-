@@ -53,7 +53,7 @@ export default function Myprojects() {
             <h3>Portfolio</h3>
             <small className='text-light'>Webiste created with React.js</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/Thakshila-Bandara/Beauty-Garden" target="_blank" rel='noreferrer' className='btn btn-primary'>Github</a>  
+              <a href="https://github.com/aframelia/Portfolio-" target="_blank" rel='noreferrer' className='btn btn-primary'>Github</a>  
             </div>
             
         </article>
