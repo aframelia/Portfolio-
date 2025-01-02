@@ -65,7 +65,7 @@
 
 /* Media queries for small devices(Mobiles) */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     .about__me{
 
@@ -74,12 +74,14 @@
     }
 
     .about__content{
-
-        text-align: center;
+        text-align: left;
+        /* padding: 0 1rem; Add some padding for better spacing */
     }
-
-    .about__content p{
-
-        margin: 1.5rem 0;
+    #about{
+        padding: 0px;
+        font-size: 14px;
     }
+    .about__me {
+        display: none;
+      }
 }

@@ -37,46 +37,6 @@ export default function Header() {
   }, [text, isDeleting, loopNum]);
 
   return (
-    // <header id="home">
-    //   <div className="header__container">
-    //     <div className='intro'>
-    //       <TrackVisibility>
-    //         {({ isVisible }) => (
-    //           <div className={`md:w-1/2 ${isVisible ? 'animate__animated animate__fadeIn' : ''}`}>
-    //             <h1 className="text-3xl md:text-5xl font-bold">
-    //               {`Hi! I'm Afra`}{' '}
-    //               <span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "Web Designer", "UI/UX Designer"]'>
-    //                 <span className="wrap">{text}</span>
-    //               </span>
-    //             </h1>
-    //             <p className="mt-4 text-lg md:text-xl">
-    //               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    //             </p>
-    //             <div className="cta">
-    //                 {/* <a href={CV} download className='btn'>Download CV</a> */}
-    //                 <a download className='btn'>Download CV</a>
-    //                 <a href="#contacts" className='btn btn-primary'>Contact Me</a>
-    //             </div>
-    //           </div>
-    //         )}
-    //       </TrackVisibility>
-    //     </div>
-    //     <TrackVisibility>
-    //       {({ isVisible }) => (
-    //         <div className='introImg'>
-    //           <div className={`mt-8 md:mt-0 md:w-1/2 flex justify-center ${isVisible ? 'animate__animated animate__zoomIn' : ''}`}>
-    //             <img
-    //               src="3d.png"
-    //               alt="Intro"
-    //             />
-    //           </div>
-              
-    //         </div>
-
-    //       )}
-    //     </TrackVisibility>
-    //   </div>
-    // </header>
     <header id="home">
   <div className="header__container flex items-center justify-between">
     {/* Intro Section */}

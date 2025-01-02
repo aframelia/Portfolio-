@@ -114,9 +114,9 @@ header {
 }
 
 /* Media query for mobile devices */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .header__container {
-    flex-direction: column; /* Stack text and image vertically */
+    flex-direction: column; 
     text-align: center;
   }
 
@@ -149,5 +149,42 @@ header {
 
   .introImg img {
     max-width: 100%;
+  }
+} */
+/* General styles for buttons */
+
+@media (max-width: 768px) {
+  /* Hide the image on small screens */
+  .header__container .introImg {
+    display: none;
+  }
+  header{
+    padding-left: 0px;
+  }
+
+  /* Center the text and adjust spacing */
+  .header__container {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;   /* Center items horizontally */
+    text-align: center;    /* Center text */
+    padding: 2rem 1rem;    /* Add spacing around */
+  }
+
+  .intro h1 {
+    font-size: 2rem;       /* Adjust font size for header text */
+    line-height: 1.2;      /* Improve line spacing */
+    margin-bottom: 1rem;   /* Add spacing below heading */
+  }
+
+  .intro p {
+    font-size: 1rem;       /* Smaller paragraph text */
+    margin-bottom: 1rem;   /* Add spacing below paragraph */
+  }
+
+  /* Adjust button sizes for smaller screens */
+  .cta .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;      /* Add spacing between buttons */
   }
 }
